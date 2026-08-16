@@ -1,10 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a08,100:000000&height=140&section=header&animation=fadeIn" width="100%"/>
+<!-- Animated wave banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:00ff41&height=200&section=header&text=WRITEUPS&fontSize=70&fontColor=00ff41&animation=fadeIn&fontAlignY=38&desc=%3E%20decrypting%20vulnerabilities...&descAlignY=58&descSize=18&descAlign=50" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=38&duration=2800&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&width=750&height=80&lines=root%40writeups%3A~%24+whoami;security+researcher_;focus%3A+web+exploitation_;%5Baccess+granted%5D_" alt="typing" />
+<!-- Animated typing line -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=600&height=60&lines=%3E+whoami;hacker;bug+bounty+hunter;writeup;pwn+everything;%5Broot%40kali%5D%23" alt="Typing SVG" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a08,100:000000&height=60&animation=fadeIn" width="100%"/>
+<br/>
+
+![Status](https://img.shields.io/badge/status-active-00FF41?style=for-the-badge&logo=hackthebox&logoColor=black&labelColor=0f0f0f)
+![Focus](https://img.shields.io/badge/focus-web%20exploitation-00FF41?style=for-the-badge&logo=protonvpn&logoColor=black&labelColor=0f0f0f)
+![Made](https://img.shields.io/badge/made%20with-caffeine-00FF41?style=for-the-badge&logo=buymeacoffee&logoColor=black&labelColor=0f0f0f)
 
 </div>
 
@@ -12,77 +18,62 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=1800&pause=600&color=00FF41&background=00000000&center=true&vCenter=true&width=650&height=140&lines=%5B%2B%5D+operator+%3A+you;%5B%2B%5D+focus+++++%3A+web+application+security;%5B%2B%5D+status++++%3A+active;%5B%2B%5D+last+run++%3A+file-upload-vulnerabilities.md;%5B%2B%5D+shell+++++%3A+%2Fbin%2Fbash" alt="status" />
+<img src="./hacker-mask.gif" width="340" alt="animated hacker terminal mask"/>
 
 </div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a08,100:000000&height=45&animation=fadeIn" width="100%"/>
-
-<br/>
 
 <div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2200&pause=500&repeat=false&color=00FF41&background=00000000&center=true&vCenter=true&width=500&height=40&lines=root%40writeups%3A~%23+tree+." alt="tree-prompt" />
-
+<sub>a personal log of vulnerabilities found, broken, and documented</sub>
 </div>
 
+---
+
+### `$ cat about.txt`
+
+This repo is my personal vault of writeups — labs, CTFs, and bug bounty findings — documented step by step so future-me can revisit exactly how each exploit chain came together.
+
+```bash
+$ ls -la ./writeups
+drwxr-xr-x  file-upload-vulnerabilities/
+drwxr-xr-x  path-traversal/
+drwxr-xr-x  sql-injection/
+drwxr-xr-x  ssrf/
+drwxr-xr-x  xxe/
+-rw-r--r--  README.md
 ```
-.
-├── file-upload-vulnerabilities/
-│   ├── 01-unrestricted-upload.md
-│   ├── 02-path-traversal.md
-│   ├── 03-htaccess-bypass.md
-│   ├── 04-blacklist-bypass.md
-│   ├── 05-null-byte-obfuscation.md
-│   └── 06-polyglot-rce.md
-├── ssrf/
-├── sqli/
-├── xxe/
-└── README.md
+
+---
+
+### `$ ls categories/`
+
+<div align="center">
+
+| 🗂️ Category | 📄 Description |
+|:--|:--|
+| **File Upload** | Blacklist bypass, polyglot shells, `.htaccess` abuse |
+| **Path Traversal** | Directory traversal & filename manipulation |
+| **SQLi** | Injection-based data extraction |
+| **SSRF** | Server-side request forgery chains |
+| **XXE** | XML external entity exploitation |
+
+</div>
+
+---
+
+### `$ whoami`
+
+```yaml
+role: security researcher / student
+mission: break things, understand why, write it down
+tools: [Burp Suite, ExifTool, curl, patience]
 ```
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a08,100:000000&height=45&animation=fadeIn" width="100%"/>
-
-<br/>
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2200&pause=500&repeat=false&color=00FF41&background=00000000&center=true&vCenter=true&width=550&height=40&lines=root%40writeups%3A~%23+cat+notes.txt" alt="notes-prompt" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&height=40&lines=stay+curious...;keep+breaking+things...;document+everything...;happy+hacking." alt="footer typing" />
 
-<br/>
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=2600&pause=900&color=00FF41&background=00000000&center=true&vCenter=true&width=680&height=90&lines=every+entry+here+is+a+reconstruction+of+a+real+exploit+chain.;what+was+tried%2C+what+failed%2C+what+actually+worked.;no+theory+without+a+payload.+just+the+chain%2C+end+to+end." alt="notes" />
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a08,100:000000&height=45&animation=fadeIn" width="100%"/>
-
-<br/>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2200&pause=500&repeat=false&color=00FF41&background=00000000&center=true&vCenter=true&width=550&height=40&lines=root%40writeups%3A~%23+cat+toolkit.txt" alt="tools-prompt" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=1500&pause=400&color=00FF41&background=00000000&center=true&vCenter=true&width=500&height=45&lines=burp+suite;exiftool;curl+%2F+netcat;python+%2F+bash;linux" alt="toolkit" />
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a08,100:000000&height=60&animation=fadeIn" width="100%"/>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=2400&pause=800&color=006618&background=00000000&center=true&vCenter=true&width=500&height=30&lines=connection+closed+by+remote+host." alt="footer" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a08,100:000000&height=100&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:0f0f0f&height=100&section=footer" width="100%"/>
 
 </div>
